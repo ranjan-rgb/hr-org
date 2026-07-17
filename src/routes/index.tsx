@@ -295,7 +295,7 @@ const org: Node = {
             {
               name: "Dhruvin",
               role: "Director of Engineering",
-              projects: ["Hercules", "Poseidon", "Allocations"],
+              projects: ["AllocationsX", "Hercules", "Poseidon", "Allocations"],
               kra: ["Frontend-heavy full stack", "Cross-product UI"],
             },
             {
