@@ -120,7 +120,7 @@ const org: Node = {
                 {
                   name: "Anshul",
                   role: "Support Engineer",
-                  projects: ["AllocationsX", "Hercules", "Poseidon"],
+                  projects: ["Hercules", "Poseidon"],
                   also: "Pankaj",
                   kra: ["US-hours full stack support", "Reports to Pankaj & Taylor"],
                 },
