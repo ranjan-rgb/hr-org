@@ -213,12 +213,33 @@ const org: Node = {
       ],
     },
     {
-      name: "GTM",
-      role: "Go-To-Market",
-      title: "Team — to be staffed",
+      name: "Changis",
+      role: "Director of Growth",
+      title: "GTM",
       color: "blue",
-      projects: ["GTM"],
-      kra: ["Owns go-to-market", "Reports to Kingsley"],
+      projects: ["OpenStocks", "Allocations"],
+      kra: ["Owns growth / GTM", "Reports to Kingsley"],
+      children: [
+        {
+          name: "GTM · Private Markets",
+          role: "",
+          kra: [],
+          pod: [
+            {
+              name: "Max Harris",
+              role: "Private Markets Consultant",
+              projects: ["Allocations"],
+              kra: ["Private markets consulting"],
+            },
+            {
+              name: "Dmitry “Mick” Knyazev",
+              role: "Private Markets Consultant",
+              projects: ["Allo Syndicate"],
+              kra: ["Private markets consulting"],
+            },
+          ],
+        },
+      ],
     },
     {
       name: "Jitin",
