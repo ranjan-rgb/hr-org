@@ -28,7 +28,10 @@ type Color =
   | "violet"
   | "pink"
   | "sky"
-  | "cyan";
+  | "cyan"
+  | "lime"
+  | "fuchsia"
+  | "blue";
 
 type Person = {
   name: string;
@@ -60,6 +63,9 @@ const palette: Record<Color, { base: string; text: string }> = {
   pink: { base: "#ec4899", text: "#f9a8d4" },
   sky: { base: "#0ea5e9", text: "#7dd3fc" },
   cyan: { base: "#06b6d4", text: "#67e8f9" },
+  lime: { base: "#84cc16", text: "#bef264" },
+  fuchsia: { base: "#d946ef", text: "#f0abfc" },
+  blue: { base: "#3b82f6", text: "#93c5fd" },
 };
 
 /* ---------- DATA ---------- */
@@ -204,6 +210,44 @@ const org: Node = {
         "Process and project management",
         "Operations on AllocationsX",
         "Reports to Kingsley",
+      ],
+    },
+    {
+      name: "GTM",
+      role: "Go-To-Market",
+      title: "Team — to be staffed",
+      color: "blue",
+      projects: ["GTM"],
+      kra: ["Owns go-to-market", "Reports to Kingsley"],
+    },
+    {
+      name: "Jitin",
+      role: "Director of Finance",
+      color: "lime",
+      projects: ["Finance"],
+      kra: ["Finance leadership", "Reports to Kingsley"],
+    },
+    {
+      name: "Priyanka",
+      role: "VP of Talent",
+      title: "Chief of Staff",
+      color: "fuchsia",
+      projects: ["Talent"],
+      kra: ["Owns talent", "Chief of Staff", "Reports to Kingsley"],
+      children: [
+        {
+          name: "Business Ops",
+          role: "",
+          kra: [],
+          pod: [
+            {
+              name: "Smita",
+              role: "Business Operations Head",
+              projects: ["Business Ops"],
+              kra: ["Owns business operations", "Reports to Priyanka"],
+            },
+          ],
+        },
       ],
     },
     {
