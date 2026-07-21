@@ -96,6 +96,12 @@ const org: Node = {
               kra: ["Finance leadership", "Reports to Brian"],
             },
             {
+              name: "Benedicto Carin",
+              role: "Finance Associate",
+              projects: ["Finance"],
+              kra: ["Finance operations", "Reports to Blake"],
+            },
+            {
               name: "Michael",
               role: "Tax Director",
               projects: ["Tax"],
@@ -131,6 +137,14 @@ const org: Node = {
                   also: "Pankaj",
                   kra: ["US-hours full stack support", "Reports to Pankaj & Taylor"],
                 },
+                {
+                  // shown in both branches on purpose: dual report to Taylor & Pankaj
+                  name: "Suvendu",
+                  role: "Senior Security Engineer",
+                  projects: ["Security"],
+                  also: "Pankaj",
+                  kra: ["Security across products", "Reports to Pankaj & Taylor"],
+                },
               ],
             },
           ],
@@ -163,6 +177,18 @@ const org: Node = {
                   role: "Senior Fund Admin Associate",
                   projects: ["Fund Admin"],
                   kra: ["Fund admin delivery", "Reports to Titus"],
+                },
+                {
+                  name: "Janine Gloria",
+                  role: "Ops Associate",
+                  projects: ["Ops"],
+                  kra: ["Ops delivery", "Reports to Titus"],
+                },
+                {
+                  name: "Pauline Cuizon",
+                  role: "Ops Associate",
+                  projects: ["Ops"],
+                  kra: ["Ops delivery", "Reports to Titus"],
                 },
               ],
             },
@@ -273,8 +299,7 @@ const org: Node = {
     },
     {
       name: "Pankaj",
-      role: "Head of Engineering",
-      title: "Director of Engineering",
+      role: "Director of Engineering",
       color: "emerald",
       projects: ["AllocationsX", "Hercules", "Poseidon", "OpenStocks", "AI"],
       kra: [
@@ -318,6 +343,13 @@ const org: Node = {
               role: "Director of Engineering",
               projects: ["AllocationsX", "Hercules", "Poseidon", "Allocations"],
               kra: ["Frontend-heavy full stack", "Cross-product UI"],
+            },
+            {
+              name: "Suvendu",
+              role: "Senior Security Engineer",
+              projects: ["Security"],
+              also: "Taylor",
+              kra: ["Security across products", "Reports to Pankaj & Taylor"],
             },
             {
               name: "Soban",
@@ -707,7 +739,7 @@ function OrgPage() {
 
         <div className="mx-auto mt-6 max-w-[1000px] rounded-lg border border-border bg-surface/40 px-4 py-3 text-center text-[11px] text-muted-foreground">
           Dashed badges mark dotted-line reporting · Taylor and Titus report to
-          both Brian &amp; Kingsley · Anshul, Sanjay and Manoj report into both
+          both Brian &amp; Kingsley · Anshul, Sanjay, Suvendu and Manoj report into both
           Pankaj &amp; Taylor
         </div>
       </main>
