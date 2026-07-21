@@ -440,6 +440,12 @@ const org: Node = {
               kra: ["Email marketing", "Marketing automation"],
             },
             {
+              name: "Naman Yadav",
+              role: "Video Editor",
+              projects: ["Brand"],
+              kra: ["Video content production", "Reports to Addhyan"],
+            },
+            {
               name: "Lav",
               role: "UI/UX Designer",
               projects: ["Design"],
