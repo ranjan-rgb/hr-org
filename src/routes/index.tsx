@@ -139,7 +139,7 @@ const org: Node = {
                 },
                 {
                   // shown in both branches on purpose: dual report to Taylor & Pankaj
-                  name: "Suvendu",
+                  name: "Suvendu Dash",
                   role: "Senior Security Engineer",
                   projects: ["Security"],
                   also: "Pankaj",
@@ -345,7 +345,7 @@ const org: Node = {
               kra: ["Frontend-heavy full stack", "Cross-product UI"],
             },
             {
-              name: "Suvendu",
+              name: "Suvendu Dash",
               role: "Senior Security Engineer",
               projects: ["Security"],
               also: "Taylor",
@@ -393,12 +393,6 @@ const org: Node = {
               role: "OpenStocks Lead",
               projects: ["OpenStocks", "Allocations"],
               kra: ["Leads OpenStocks delivery", "Reports to Guillaume"],
-            },
-            {
-              name: "Mayank",
-              role: "Engineer",
-              projects: ["OpenStocks"],
-              kra: ["OpenStocks backend", "Reports to Tushar"],
             },
           ],
         },
