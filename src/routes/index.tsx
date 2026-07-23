@@ -137,13 +137,27 @@ const org: Node = {
                   also: "Pankaj",
                   kra: ["US-hours full stack support", "Reports to Pankaj & Taylor"],
                 },
+              ],
+            },
+            {
+              // shared pod: both dual-report to Taylor & Pankaj, shown in both branches
+              name: "Security & QA",
+              role: "",
+              kra: [],
+              pod: [
                 {
-                  // shown in both branches on purpose: dual report to Taylor & Pankaj
                   name: "Suvendu Dash",
                   role: "Senior Security Engineer",
                   projects: ["Security"],
                   also: "Pankaj",
                   kra: ["Security across products", "Reports to Pankaj & Taylor"],
+                },
+                {
+                  name: "Manoj",
+                  role: "QA Automation Lead",
+                  projects: ["All"],
+                  also: "Pankaj",
+                  kra: ["QA automation across products", "Reports to Pankaj & Taylor"],
                 },
               ],
             },
@@ -345,13 +359,6 @@ const org: Node = {
               kra: ["Frontend-heavy full stack", "Cross-product UI"],
             },
             {
-              name: "Suvendu Dash",
-              role: "Senior Security Engineer",
-              projects: ["Security"],
-              also: "Taylor",
-              kra: ["Security across products", "Reports to Pankaj & Taylor"],
-            },
-            {
               name: "Soban",
               role: "Senior Engineer",
               projects: ["Hercules", "Poseidon"],
@@ -360,10 +367,18 @@ const org: Node = {
           ],
         },
         {
-          name: "QA",
+          // shared pod: both dual-report to Taylor & Pankaj, shown in both branches
+          name: "Security & QA",
           role: "",
           kra: [],
           pod: [
+            {
+              name: "Suvendu Dash",
+              role: "Senior Security Engineer",
+              projects: ["Security"],
+              also: "Taylor",
+              kra: ["Security across products", "Reports to Pankaj & Taylor"],
+            },
             {
               name: "Manoj",
               role: "QA Automation Lead",
