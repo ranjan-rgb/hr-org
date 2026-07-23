@@ -243,7 +243,7 @@ const org: Node = {
       role: "Director of Growth",
       title: "GTM",
       color: "blue",
-      projects: ["OpenStocks", "Allocations"],
+      projects: ["OpenStocks", "Allo", "Allocations"],
       kra: ["Owns growth / GTM", "Reports to Kingsley"],
       children: [
         {
